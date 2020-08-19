@@ -1,118 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap'); /* import hallo fon*/
 .jumbotron{
- /*   background: rgb(195,218,223);
-    background:transparent;
-    background: linear-gradient(90deg, rgba(195,218,223,1) 1%, rgba(190,163,188,1) 100%, rgba(2,0,36,1) 100%);
-    background:transparent;*/
-    border-radius:10px !important;
-    box-shadow: 0 8px 16px -6px black;
- background: rgb(195,218,223);
-  background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: ond 15s ease infinite;
+  /*   background: rgb(195,218,223);
+  background:transparent;
+  background: linear-gradient(90deg, rgba(195,218,223,1) 1%, rgba(190,163,188,1) 100%, rgba(2,0,36,1) 100%);
+  background:transparent;*/
+border-radius:10px !important;
+box-shadow: 0 8px 16px -6px black;
+background: rgb(195,218,223);
+background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: ond 15s ease infinite;
   }
-/*------------------------------------imagen circular----------------------------------*/
-.image-cropper {
+  /*------------------------------------imagen circular----------------------------------*/
+  .image-cropper {
     position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.image-cropper img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .image-cropper img {
     width: 100%;
-  height: auto;
-}
-/*------------------------------------cambiar la letra----------------------------------*/
-.font {
+    height: auto;
+  }
+  /*------------------------------------cambiar la letra----------------------------------*/
+  .font {
     font-family: 'PT Mono', monospace;
-}
-.animated {
-  text-indent: 8px;
-  
-}
-/*-----------------------------------animacion de la frase------------------------*/
-.animated:before {
+  }
+  .animated {
+    text-indent: 8px;
+
+  }
+  /*-----------------------------------animacion de la frase------------------------*/
+  .animated:before {
 
     content: " Coding";
-  animation : topToBottom 5s infinite 0s;
-}
+    animation : topToBottom 5s infinite 0s;
+  }
 
-@keyframes topToBottom {
-  0% {
-    content: " Competitive Programming";
-    color:purple;
-  }
-  25% {
-    content: " Music";
-    color:pink;
-  }
-  50% {
-    content: " Coding";
-    color:blue;
-  }
-  100% {
-    content: " Competitive Programming";
-  color:purple;
-  }
-}
-/*---------------------------------------animacion del jumbotron------------------------*/
-    
-@keyframes ond {
+  @keyframes topToBottom {
     0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-/*----------------------------------------tamaño de la imagen del git-----------------------*/
-.img {
+      content: " Competitive Programming";
+      color:purple;
+    }
+    25% {
+      content: " Music";
+      color:pink;
+    }
+    50% {
+      content: " Coding";
+      color:blue;
+    }
+    75% {
+      content: " la Chikistrikis ♥️";
+      color:#f3808c;
+    }
+    100% {
+      content: " Competitive Programming";
+      color:purple;
+    }
+
+  }
+  /*---------------------------------------animacion del jumbotron------------------------*/
+
+  @keyframes ond {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  /*----------------------------------------tamaño de la imagen del git-----------------------*/
+  .img {
     width : 50px;
     height : 50px;
-}
+  }
 
-/*----------------------------------------texto bonito-------------------------*/
-.cute-text{
-	animation: ondi 15s ease infinite;
-   }
-@keyframes ondi{
-   0% { 
-  color:#5D6D64;
- }
-10% { 
-  color:#59746D;
- }
-20% { 
-  color:#547B79;
- }
-30% { 
-  color:#4F8288;
- }
-40% { 
-  color:#4E8798;
- }
-50% { 
-  color:#538CA9;
- }
-60% { 
-  color:#5D6D64;
- }
-70% { 
-  color:#59746D;
- }
-80% { 
-  color:#547B79;
- }
-90% { 
-  color:#4F8288;
- }
-100% { 
-  color:#4E8798;
- }
+  /*----------------------------------------texto bonito-------------------------*/
+  .cute-text{
+    animation: ondi 15s ease infinite;
+  }
+  @keyframes ondi{
+    0% {
+      color:#5D6D64;
+    }
+    10% {
+      color:#59746D;
+    }
+    20% {
+      color:#547B79;
+    }
+    30% {
+      color:#4F8288;
+    }
+    40% {
+      color:#4E8798;
+    }
+    50% {
+      color:#538CA9;
+    }
+    60% {
+      color:#5D6D64;
+    }
+    70% {
+      color:#59746D;
+    }
+    80% {
+      color:#547B79;
+    }
+    90% {
+      color:#4F8288;
+    }
+    100% {
+      color:#4E8798;
+    }
 
-}
+  }
 
