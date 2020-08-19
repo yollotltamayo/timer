@@ -19,6 +19,13 @@ const Data =
             tag: true,
             link:"https://metodos-dos.herokuapp.com/metodos/"
         },
+        {
+            image : mn,
+            title : "Metodos Numericos",
+            text : "Una aplicacion creada para mostrar matrices adyacentes e incidentes de un grafo dirigio o no dirigido",
+            tag: true,
+            link:"https://metodos-dos.herokuapp.com/metodos/"
+        },
     ]
 
 export default Data;
