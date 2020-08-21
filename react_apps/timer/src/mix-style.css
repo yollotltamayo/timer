@@ -1,0 +1,17 @@
+h2 { 
+    color:#fff;
+    text-align:center;
+}
+h4 {
+    color:#F0F0F0;
+    text-align:center;
+}
+
+input {
+    background-color:transparent;
+    border:1px solid #000;
+    border-radius:10px !important;
+    color:#fff!important;
+    text-align:center;
+}
+

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+.change-font{
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.App {
+  text-align: center;
+}
+.big-text{
+  text-align: center;
+   font-size: 10vw;
+}
+.color-text{
+	animation: ondi 15s ease infinite;
+}
+.jumbotron{
+    background-color:transparent!important;
+    font-color:"white";
+}
+.font {
+    color:#fff!important;
+  }
+body{
+    background: rgb(195,218,223);
+    background: linear-gradient(-45deg,#ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: ond 15s ease infinite;
+}
+@keyframes ond {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+@keyframes ondi{
+    0% { 
+  color:#AAECF2;
+ }
+10% { 
+  color:#98F4E9;
+ }
+20% { 
+  color:#97FBD4;
+ }
+30% { 
+  color:#ABFEB5;
+ }
+40% { 
+  color:#CDFD91;
+ }
+50% { 
+  color:#F9F871;
+ }
+60% { 
+  color:#AAECF2;
+ }
+70% { 
+  color:#98F4E9;
+ }
+80% { 
+  color:#97FBD4;
+ }
+90% { 
+  color:#ABFEB5;
+ }
+100% { 
+  color:#CDFD91;
+ }
+
+}
